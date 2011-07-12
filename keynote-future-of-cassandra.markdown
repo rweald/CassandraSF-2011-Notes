@@ -31,8 +31,8 @@ project is going to die.
 * Increased read performace. If you can keep the working set in
   memmory(this is not the whole dataset just the part you are using)
 
-* No write locks at all. 
-* No random writes to disk. Just streaming rights.
+* No write locks. 
+* No random writes to disk. Just streaming writes.
 
 ####Consistency
 * You can tune cassandra to be a fully consistent system if you would
