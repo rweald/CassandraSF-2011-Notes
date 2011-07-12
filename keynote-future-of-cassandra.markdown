@@ -6,11 +6,8 @@
 * Twitter
 * Rackspace
 
-Overall trend: All analytics companies. Most people are not using it to
-store their application data but rather using it to store and process
-anayltics. 
-Realtime layer of analytics. You also write the data to HDFS so that you
-can run batch jobs on it later. Brisk changes some of this because you
+Realtime layer of analytics. Traditionally used alongside HDFS and
+hadoop. Brisk changes some of this because you
 can run hadoop and hive and pig jobs on the cassandra data. 
 
 Definitely has some significant support from Datastax. Don't think the
